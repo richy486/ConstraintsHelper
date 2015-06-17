@@ -18,9 +18,5 @@
 
 @interface UIView (ConstraintsHelper)
 
-//[self.view setVFLWithMetrics:metrics views:views inBlock:^(VFLManager *vflManager){
-//    [vflManager add:@"H:|-[_startGameButton]-|"];
-//}];
-
 - (void) setVFLWithOptions:(NSLayoutFormatOptions)opts metrics:(NSDictionary *)metrics views:(NSDictionary *)views inBlock:(void (^)(VFLManager *vflManager))block;
 @end
