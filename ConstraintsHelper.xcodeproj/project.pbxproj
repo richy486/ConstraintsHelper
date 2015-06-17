@@ -14,6 +14,7 @@
 		B9BFBF1F1B319AA60080DB5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BFBF1E1B319AA60080DB5C /* Images.xcassets */; };
 		B9BFBF221B319AA60080DB5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9BFBF201B319AA60080DB5C /* LaunchScreen.xib */; };
 		B9BFBF2E1B319AA60080DB5C /* ConstraintsHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BFBF2D1B319AA60080DB5C /* ConstraintsHelperTests.m */; };
+		B9BFBF3A1B319ACF0080DB5C /* UIView+ConstraintsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BFBF391B319ACF0080DB5C /* UIView+ConstraintsHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B9BFBF271B319AA60080DB5C /* ConstraintsHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstraintsHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BFBF2C1B319AA60080DB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BFBF2D1B319AA60080DB5C /* ConstraintsHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstraintsHelperTests.m; sourceTree = "<group>"; };
+		B9BFBF381B319ACF0080DB5C /* UIView+ConstraintsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+ConstraintsHelper.h"; path = "ConstraintsHelper/UIView+ConstraintsHelper.h"; sourceTree = "<group>"; };
+		B9BFBF391B319ACF0080DB5C /* UIView+ConstraintsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+ConstraintsHelper.m"; path = "ConstraintsHelper/UIView+ConstraintsHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 			children = (
 				B9BFBF151B319AA60080DB5C /* AppDelegate.h */,
 				B9BFBF161B319AA60080DB5C /* AppDelegate.m */,
+				B9BFBF371B319AAD0080DB5C /* ConstraintsHelper */,
 				B9BFBF181B319AA60080DB5C /* ViewController.h */,
 				B9BFBF191B319AA60080DB5C /* ViewController.m */,
 				B9BFBF1B1B319AA60080DB5C /* Main.storyboard */,
@@ -117,6 +121,15 @@
 				B9BFBF2C1B319AA60080DB5C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9BFBF371B319AAD0080DB5C /* ConstraintsHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B9BFBF381B319ACF0080DB5C /* UIView+ConstraintsHelper.h */,
+				B9BFBF391B319ACF0080DB5C /* UIView+ConstraintsHelper.m */,
+			);
+			name = ConstraintsHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BFBF1A1B319AA60080DB5C /* ViewController.m in Sources */,
+				B9BFBF3A1B319ACF0080DB5C /* UIView+ConstraintsHelper.m in Sources */,
 				B9BFBF171B319AA60080DB5C /* AppDelegate.m in Sources */,
 				B9BFBF141B319AA60080DB5C /* main.m in Sources */,
 			);
