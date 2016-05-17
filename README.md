@@ -10,3 +10,6 @@ Usage:
         [vflManager add:@"H:|-[batView]-|"];
         [vflManager add:@"V:|-[batView]-|"];
     }];
+
+Swift version in gist form at:
+https://gist.github.com/richy486/940ac0a5dfb1781bdf52ff4bf6cf11b6
