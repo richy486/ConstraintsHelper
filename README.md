@@ -12,4 +12,5 @@ Usage:
     }];
 
 Swift version in gist form at:
-https://gist.github.com/richy486/940ac0a5dfb1781bdf52ff4bf6cf11b6
+
+https://gist.github.com/richy486/b95786706276fd58c4dfe811401090a7
